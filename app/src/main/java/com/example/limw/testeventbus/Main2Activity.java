@@ -21,11 +21,13 @@ public class Main2Activity extends AppCompatActivity {
 //        init();
     }
 
+    //接收函数
     public void onEvent(MessageEvent2 event){
         Log.v("TAG", "Main2Activity.onEvent->" + event.getObj().toString() + "->" + Thread.currentThread().getName());
     }
 
     private void init() {
+        //获取sticky事件
         MessageEvent2 event = EventBus.getDefault().getStickyEvent(MessageEvent2.class);
         Log.v("TAG", "Main2Activity-->getStickyEvent By event.class->" + event.getObj().toString());
     }

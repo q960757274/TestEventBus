@@ -124,15 +124,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         EventBusUtils.post(new MessageEvent1("from MainActivity"));
     }
 
+    //打印发布线程名称
     private void showPostThreadName() {
         Log.v("TAG", "post thread->" + Thread.currentThread().getName());
     }
 
+    //跳转到Main2Activity
     private void startMain2Activity() {
         EventBusUtils.postSticky(new MessageEvent2("from MainActivity by postStickyEvent"));
         startActivity(new Intent(this, Main2Activity.class));
     }
 
+    //使用Executor
     private void postByAsyncExecutor() {
         EventBusUtils.execute(new AsyncExecutor.RunnableEx() {
             @Override

@@ -33,7 +33,8 @@ public class TestService extends Service {
         super.onDestroy();
     }
 
-    public void onEventMainThread(ServiceEvent event){
-        Log.v("TAG","TestService.onEvent->"+event.getObj().toString()+"->" + Thread.currentThread().getName());
+    //接收消息
+    public void onEventMainThread(ServiceEvent event) {
+        Log.v("TAG", "TestService.onEvent->" + event.getObj().toString() + "->" + Thread.currentThread().getName());
     }
 }

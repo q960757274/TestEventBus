@@ -13,6 +13,7 @@ public class MyApplication extends Application {
     @Override
     public void onCreate() {
 
+        //初始化EventBus
         EventBusUtils.initEventBus();
 //        if (AppConfig.EVENTBUS_IS_DEBUG) {
 //            StrictMode.setThreadPolicy(new StrictMode.ThreadPolicy.Builder()
