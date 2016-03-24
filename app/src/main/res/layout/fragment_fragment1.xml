@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.limw.testeventbus.Fragment1">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/tv_fragment1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:gravity="center"
+        android:text="Fragment1" />
+
+
+    <Button
+        android:id="@+id/btn2_fragment1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="To Fragment2"/>
+</LinearLayout>
