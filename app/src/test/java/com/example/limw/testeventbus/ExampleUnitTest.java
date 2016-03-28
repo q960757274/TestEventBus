@@ -1,4 +1,4 @@
-package com.example.limw.testeventbus;
+package com.example.reflex.testeventbus;
 
 import org.junit.Test;
 

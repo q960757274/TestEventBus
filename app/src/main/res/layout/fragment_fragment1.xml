@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.limw.testeventbus.Fragment1">
+    tools:context="com.example.reflex.testeventbus.Fragment1">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
