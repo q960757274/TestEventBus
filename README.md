@@ -1,5 +1,7 @@
 # TestEventBus
-EventBus2.4版本基于反射实现版本的使用Demo
+##Demo包括：
+1.EventBus2.4版本基于反射实现
+2.EventBus3.0版本基于注解实现
 
 
      本文从4个方面讲解EventBus，讲解来源于GitHub作者的文档和自己的理解。
